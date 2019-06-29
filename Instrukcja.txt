@@ -1,0 +1,22 @@
+﻿* Visual studio - New Solution
+* docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Password1' -p 1433:1433 --name sql1 mcr.microsoft.com/mssql/server:2017-latest
+* Łączenie do bazy tej https://i.imgur.com/qLy6fVh.png - Password1
+* Alternatywnie, łączenie do bazy PJATK: https://i.imgur.com/IQZQpxN.png, https://i.imgur.com/c24OyKu.png
+* Odpalenie skryptu tworzacego tabele, badz samodzielne stworzenie tabel i wierszy
+* Prawy na nazwe projektu, NuGET -> Entity Framework
+* Nowy folder model, Add -> Class -> Data -> ADO.NET Entity Data Model -> Code First -> Nasza baza/ Yes. Include -> Wybieramy tabel i generujemy.
+* Potencjalnie potrzebna adnotacja nad ID od autogenerowania wartosc ([DatabaseGenerated(DatabaseGeneratedOption.Identity)])
+* Mogę kopiować z projektu Kolokwium ale pamietac o: Zmianie nazw zmiennych/klas na ładne, poprawienie resize (Datagrid? Button na dole?), lepszy wygląd? oraz podział na klasy
+* Connection String (jeżeli chce zreusować istniejąca aplikacje???) to tutaj: App.config -> ConnectionStrings
+
+Materiały:
+
+- https://classroom.google.com/
+
+* Zgrac wszystkie materialy na Maila/USB/GitHub itd odnosniki tez w tym musze zawrzec: 
+
+- Odnosniki do wykladow goscia itd
+- Wszystkie moje projekty
+- Te instrukcje
+
+* Ogarnąć mieszkanie/siebie/zupdatować Bieżące i ten plik
